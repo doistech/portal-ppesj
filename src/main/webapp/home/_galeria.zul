@@ -1,0 +1,55 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div zclass="col-md-12" style="padding-rigth: 0; margin-top:20px">
+        <div zclass="col-md-12 align-div-area-center title-area">
+            <n:span class="vertical-aling-middle-new textTituloDaArea">GALERIA</n:span>
+        </div>
+        <div zclass="col-md-12" style="padding:0">
+            <n:div class="row">
+                <!--Festa 01-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                        <n:div class="caption" style="text-align: center;">
+                            <n:h3>Natal Social</n:h3>
+                            <!--<n:p>...</n:p>-->
+                            <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                        </n:div>
+                    </n:div>
+                </n:div>
+                <!--Festa 02-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                        <n:div class="caption" style="text-align: center;">
+                            <n:h3>Missa Natal</n:h3>
+                            <!--<n:p>...</n:p>-->
+                            <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                        </n:div>
+                    </n:div>
+                </n:div>
+                <!--Festa 03-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                        <n:div class="caption" style="text-align: center;">
+                            <n:h3>Missa Ano Novo</n:h3>
+                            <!--<n:p>...</n:p>-->
+                            <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                        </n:div>
+                    </n:div>
+                </n:div>
+                <!--Festa 04-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                        <n:div class="caption" style="text-align: center;">
+                            <n:h3>Festa São Jorge</n:h3>
+                            <!--<n:p>...</n:p>-->
+                            <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                        </n:div>
+                    </n:div>
+                </n:div>
+            </n:div>
+        </div>
+    </div>
+</zk>

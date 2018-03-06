@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?init class="org.zkoss.zkplus.databind.AnnotateDataBinderInit" ?>
+<?variable-resolver class="org.zkoss.zkplus.spring.DelegatingVariableResolver"?>
+
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"?>
+    <?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"?>
+    <?script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"?>
+    <?link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'?>
+    <?link href="../assets/css/portal.css" type="text/css" rel="stylesheet"?>
+
+    <div apply="org.zkoss.bind.BindComposer"
+         viewModel="@id('vm') @init('br.com.ppesj.portal.viewmodel.NavegacaoVM')">
+        <div zclass="container-fluid header-logo z-index-header">
+            <div zclass="row" style="height:70px;">
+                <div zclass="container">
+                    <div zclass="col-md-12" style="text-align: center;">
+                        <n:img class="img-logo" src="/assets/img/logo-header-new.png"/>
+                    </div>
+                </div>
+            </div>
+            <div zclass="row heght-menu-portal">
+                <div zclass="container">
+                    <include src="/comum/_menu.zul"/>
+                </div>
+            </div>
+        </div>
+        <div zclass="container-fluid heght-menu-portal">
+            <div zclass="container" style="height: 150px;">
+            </div>
+            <div zclass="container">
+                <include src="@load(vm.currentPage)"/>
+            </div>
+        </div>
+        <!--<div zclass="container-fluid footer">-->
+            <!--<div zclass="container">-->
+                <!--<n:h5>Desenvolvido por DoisTech</n:h5>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</zk>
+
+
+
+
+
+
+
+<!--<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">-->
+    <!--<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"?>-->
+    <!--<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"?>-->
+    <!--<?script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"?>-->
+    <!--<?link href="../assets/css/portal.css" type="text/css" rel="stylesheet"?>-->
+
+    <!--&lt;!&ndash;Header&ndash;&gt;-->
+    <!--<div zclass="container-fluid header-portal">-->
+        <!--<div zclass="container">-->
+            <!--<include src="/comum/_header.zul"/>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;Menu&ndash;&gt;-->
+    <!--<div zclass="container-fluid heght-menu-portal">-->
+        <!--<div zclass="container">-->
+            <!--<include src="/comum/_menu.zul"/>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div zclass="container" style="margin-top: 15px;">-->
+        <!--<div zclass="row">-->
+            <!--<include src="/home/_banner.zul"/>-->
+        <!--</div>-->
+
+        <!--<div zclass="row">-->
+            <!--<div zclass="col-md-6">-->
+                <!--<include src="/home/_avisos.zul"/>-->
+            <!--</div>-->
+            <!--<div zclass="col-md-6" style="max-height: 585px;">-->
+                <!--<include src="/home/_vozDoPastor.zul"/>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div zclass="row">-->
+            <!--<div zclass="col-md-6">-->
+                <!--<include src="/home/_bannerCampanha.zul"/>-->
+            <!--</div>-->
+            <!--<div zclass="col-md-6">-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div zclass="row">-->
+            <!--<include src="/home/_galeria.zul"/>-->
+        <!--</div>-->
+
+
+    <!--</div>-->
+    <!--<div zclass="container-fluid footer-portal">-->
+        <!--<div zclass="container">-->
+            <!--<div zclass="col-md-2">-->
+            <!--</div>-->
+            <!--<div zclass="col-md-8" style="text-align:center">-->
+                <!--<n:h5 style="margin-top: 20%;">Desenvolvido por DoisTech</n:h5>-->
+            <!--</div>-->
+            <!--<div zclass="col-md-2">-->
+                <!--<div zclass="col-md-4" style="margin-top:20px; padding:5px">-->
+                    <!--<n:img src="https://n6-img-fp.akamaized.net/icones-gratis/facebook-logo-botao_318-84980.jpg?size=338?ext=jpg" width="100%"/>-->
+                <!--</div>-->
+                <!--<div zclass="col-md-4" style="margin-top:20px;  padding:5px">-->
+                    <!--<n:img src="https://n6-img-fp.akamaized.net/icones-gratis/logo-instagram_318-84939.jpg?size=338?ext=jpg" width="100%"/>-->
+                <!--</div>-->
+                <!--<div zclass="col-md-4" style="margin-top:20px;  padding:5px">-->
+                    <!--<n:img src="https://n6-img-fp.akamaized.net/icones-gratis/twitter-botao-circular_318-70632.jpg?size=338?ext=jpg" width="100%"/>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</zk>-->

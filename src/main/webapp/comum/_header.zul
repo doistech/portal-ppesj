@@ -1,0 +1,14 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div zclass="col-md-2">
+    <n:img class="img-logo" src="/assets/img/PerfilPPESJ.png"/>
+    </div>
+    <div zclass="col-md-8" style="text-align: center;">
+    <n:h1 style="margin-top: 30px;">PARÓQUIA PAI ETERNO E SÃO JOSÉ</n:h1>
+    <n:h3 style="margin-top: 10px;">CIDADE DE DEUS - RJ</n:h3>
+    </div>
+    <div zclass="col-md-2" style="text-align: right;">
+    <a href="http://arqrio.org/">
+    <n:img class="img-logo-arqrio" src="http://static.tumblr.com/00ea963ae6582ebe4a59002e9c267e57/rw9h38i/HuFmn3u2o/tumblr_static_arqriologotranspborda.png"/>
+    </a>
+    </div>
+</zk>

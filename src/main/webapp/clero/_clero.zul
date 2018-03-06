@@ -1,0 +1,133 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div zclass="row">
+        <div zclass="col-md-3">
+            <div style="background: red; width:100%; height: 200px;"></div>
+        </div>
+        <div zclass="col-md-9">
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h4>Nome do Padre</n:h4>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Função Paroquial</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Nascimento</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Ordenação</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Provisão</n:h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div zclass="row">
+        <div zclass="col-md-9" style="text-align:right;">
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h4>Nome do Padre</n:h4>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Função Paroquial</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Nascimento</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Ordenação</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Provisão</n:h5>
+                </div>
+            </div>
+        </div>
+        <div zclass="col-md-3">
+            <div style="background: red; width:100%; height: 200px;"></div>
+        </div>
+    </div>
+
+    <div zclass="row">
+        <div zclass="col-md-3">
+            <div style="background: red; width:100%; height: 200px;"></div>
+        </div>
+        <div zclass="col-md-9">
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h4>Nome do Padre</n:h4>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Função Paroquial</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Nascimento</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Ordenação</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Provisão</n:h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div zclass="row" style="margin-bottom: 30px;">
+        <div zclass="col-md-9" style="text-align:right;">
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h4>Nome do Padre</n:h4>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Função Paroquial</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Nascimento</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Ordenação</n:h5>
+                </div>
+            </div>
+            <div zclass="row">
+                <div zclass="col-md-12">
+                    <n:h5>Data de Provisão</n:h5>
+                </div>
+            </div>
+        </div>
+        <div zclass="col-md-3">
+            <div style="background: red; width:100%; height: 200px;"></div>
+        </div>
+    </div>
+</zk>

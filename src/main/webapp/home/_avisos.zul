@@ -1,0 +1,23 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div apply="org.zkoss.bind.BindComposer" viewModel="@id('vm') @init('br.com.ppesj.portal.viewmodel.AvisosVM')">
+        <div zclass="col-md-12 align-div-area title-area">
+            <n:h3 class="textTituloDaArea">ANOTE NA SUA AGENDA</n:h3>
+            <!--<n:span class="vertical-aling-middle">ANOTE NA SUA AGENDA</n:span>-->
+        </div>
+        <div children="@load(vm.listaAvisos)">
+            <template name="children" var="aviso">
+                <div zclass="col-md-12 z-index-body">
+                    <n:span class="style-font">${aviso.data}</n:span>
+                    <n:br/>
+                    <n:span class="style-font">${aviso.titulo}</n:span>
+                    <n:br/>
+                    <!--<n:span class="style-font-descricao">${aviso.descricao}</n:span>-->
+                    <n:hr/>
+                </div>
+            </template>
+        </div>
+    </div>
+    <div zclass="col-md-12 z-index-body" style="text-align:right">
+        <a zclass="a-leia-mais" onClick="@command('changePage', contexto = 'aviso')">Acompanhe nossos avisos</a>
+    </div>
+</zk>

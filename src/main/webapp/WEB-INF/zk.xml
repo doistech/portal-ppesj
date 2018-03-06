@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk>
+    <session-config>
+        <device-type>ajax</device-type>
+        <timeout-message>Sua sessão expirou. Por favor recarregue a página.</timeout-message>
+    </session-config>
+    <language-config>
+        <addon-uri>/WEB-INF/lang-addon.xml</addon-uri>
+    </language-config>
+    <preference>
+        <name>ThreadLocal</name>
+        <value>
+            org.springframework.web.context.request.RequestContextHolder=requestAttributesHolder,inheritableRequestAttributesHolder;
+            org.springframework.security.context.ThreadLocalSecurityContextHolderStrategy=contextHolder
+        </value>
+    </preference>
+    <library-property>
+        <name>org.zkoss.web.classWebResource.cache</name>
+        <value>false</value>
+    </library-property>
+    <library-property>
+        <name>org.zkoss.web.preferred.locale</name>
+        <value>pt</value>
+    </library-property>
+    <library-property>
+        <name>org.zkoss.zul.progressbox.position</name>
+        <value>center</value>
+    </library-property>
+    <library-property>
+        <name>org.zkoss.theme.preferred</name>
+        <value>sapphire</value>
+    </library-property>
+</zk>

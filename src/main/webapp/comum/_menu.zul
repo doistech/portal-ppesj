@@ -1,0 +1,15 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div zclass="col-md-12">
+        <div zclass="menu-portal">
+            <n:ul class="nav nav-pills">
+                <n:li role="presentation"><a zclass="a-menu" onClick="@command('changePage', contexto = 'home')" style="font-size: 15px;">Home</a></n:li>
+                <n:li role="presentation"><a zclass="a-menu" onClick="@command('changePage', contexto = 'comunidades')" style="font-size: 15px;">Comunidades</a></n:li>
+                <n:li role="presentation"><a zclass="a-menu" onClick="@command('changePage', contexto = 'pastoral')" style="font-size: 15px;">Pastorais</a></n:li>
+                <n:li role="presentation"><a zclass="a-menu" onClick="@command('changePage', contexto = 'clero')" style="font-size: 15px;">Clero</a></n:li>
+                <n:li role="presentation"><n:a zclass="a-menu" href="#">Contatos</n:a></n:li>
+                <n:li role="presentation"><n:a target="_blank" zclass="a-menu" href="https://paieternoesaojose.com.br:2096/">Webmail</n:a></n:li>
+                <n:li role="presentation"><n:a zclass="a-menu" href="/admin/login.zul">SIPPESJ</n:a></n:li>
+            </n:ul>
+        </div>
+    </div>
+</zk>

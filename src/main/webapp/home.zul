@@ -1,0 +1,56 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div zclass="row">
+        <div zclass="col-md-5" style="padding: 0;">
+            <div style="width: 100%;">
+                <include src="/home/_banner.zul"/>
+            </div>
+        </div>
+        <div zclass="col-md-4" style="padding-right: 0;">
+            <div zclass="col-md-12" style="margin-bottom: 10px; padding-left: 0;">
+                <label value="TITULO DA NOTICIA" style="font-family:Lato; font-size:13px; color: black;"/>
+            </div>
+            <div zclass="col-md-12" style="height: 120px;  background: red; margin-bottom: 5px; border-radius:5px">
+            </div>
+
+            <div zclass="col-md-12" style="margin-bottom: 15px;padding-left: 0; color: gray;">
+                <label value="Descricão breve da noticia aqui sempres" style="font-family:Lato; font-size:13px; "/>
+            </div>
+
+            <div zclass="col-md-12" style="height: 100px;margin-bottom: 15px; padding-left:0;">
+                <div zclass="col-md-4" style="height: 100px;  background: red; border-radius:5px">
+                </div>
+                <div zclass="col-md-8" style="100px;padding-right: 0;">
+                    <n:br/>
+                    <label value="TITULO DA NOTICIA" style="font-family:Lato; font-size:13px; color: black;"/>
+                    <n:br/>
+                    <label value="Descricão breve da noticia aqui sempres" style="font-family:Lato; font-size:13px; color: gray;"/>
+                </div>
+            </div>
+            <div zclass="col-md-12" style="margin-bottom: 15px; padding-left:0;">
+                <div zclass="col-md-4" style="height: 100px;  background: red; border-radius:5px">
+                </div>
+                <div zclass="col-md-8" style="padding-right: 0;">
+                    <n:br/>
+                    <label value="TITULO DA NOTICIA" style="font-family:Lato; font-size:13px; color: black;"/>
+                    <n:br/>
+                    <label value="Descricão breve da noticia aqui sempres" style="font-family:Lato; font-size:13px; color: gray;"/>
+                </div>
+            </div>
+        </div>
+        <div zclass="col-md-3" style="padding-right: 0;">
+            <include src="/home/_avisosNew.zul"/>
+        </div>
+        <!--<include src="/home/_banner.zul"/>-->
+    </div>
+    <!--<div zclass="row">-->
+        <!--<div zclass="col-md-6">-->
+            <!--<include src="/home/_avisos.zul"/>-->
+        <!--</div>-->
+        <!--<div zclass="col-md-6" style="max-height: 585px;">-->
+            <!--<include src="/home/_vozDoPastor.zul"/>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div zclass="row">-->
+        <!--<include src="/home/_galeria.zul"/>-->
+    <!--</div>-->
+</zk>

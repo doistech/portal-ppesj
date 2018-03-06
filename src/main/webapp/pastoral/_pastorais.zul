@@ -1,0 +1,184 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div zclass="col-md-12" style="padding-rigth: 0; margin-top:20px;  margin-bottom:20px">
+        <div zclass="col-md-12" style="padding:0">
+            <n:div class="row">
+                <!--Festa 01-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h4>Batismo</n:h4>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 02-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h4>Catequese</n:h4>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 03-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h4>RICA</n:h4>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 04-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h4>Anjos da Fé</n:h4>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 01-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h4>Comunidade Matriz</n:h4>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 02-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h4>Comunidade Nossa Senhora Aparecida</n:h4>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 03-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade Santa Rita de Cássia</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 04-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade São Jorge</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 01-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade Matriz</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 02-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade Nossa Senhora Aparecida</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 03-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade Santa Rita de Cássia</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 04-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade São Jorge</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 01-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade Matriz</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 02-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade Nossa Senhora Aparecida</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 03-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade Santa Rita de Cássia</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+                <!--Festa 04-->
+                <n:div class="col-sm-5 col-md-3">
+                    <n:div class="thumbnail">
+                        <n:img src="http://snowreport.co.za/wp-content/uploads/2015/01/240-x-200-SnowReport.jpg" alt="Click aqui"/>
+                    </n:div>
+                    <n:div class="caption" style="text-align: center;">
+                        <n:h6>Comunidade São Jorge</n:h6>
+                        <!--<n:p>...</n:p>-->
+                        <!--<n:p><n:a href="#" class="btn btn-primary" role="button">Button</n:a> <n:a href="#" class="btn btn-default" role="button">Button</n:a></n:p>-->
+                    </n:div>
+                </n:div>
+            </n:div>
+        </div>
+    </div>
+</zk>

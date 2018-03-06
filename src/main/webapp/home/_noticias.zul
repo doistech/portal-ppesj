@@ -1,0 +1,42 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+
+    <div zclass="col-md-12 align-div-area title-area">
+        <n:h3 class="textTituloDaArea">ULTIMAS NOTÍCIAS</n:h3>
+    </div>
+    <div zclass="col-md-12" style="padding: 0; margin-top:10px">
+        <div zclass="col-md-3" style="padding-left: 0;">
+            <div zclass="img-noticias"></div>
+        </div>
+        <div zclass="col-md-9">
+            <n:p>
+                Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Atirei o pau no gatis, per gatis num morreus.
+            </n:p>
+            <a zclass="a-leia-mais" href="#">Leia + </a>
+        </div>
+        <n:hr/>
+    </div>
+    <div zclass="col-md-12" style="padding: 0; margin-top:20px">
+        <div zclass="col-md-9">
+            <n:p>
+                Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Atirei o pau no gatis, per gatis num morreus.
+            </n:p>
+            <a zclass="a-leia-mais" href="#">Leia + </a>
+        </div>
+        <div zclass="col-md-3" style="padding-right: 0;">
+            <div zclass="img-noticias"></div>
+        </div>
+        <n:hr/>
+    </div>
+    <div zclass="col-md-12" style="padding: 0; margin-top:20px">
+        <div zclass="col-md-3" style="padding-left: 0;">
+            <div zclass="img-noticias"></div>
+        </div>
+        <div zclass="col-md-9">
+            <n:p>
+                Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Atirei o pau no gatis, per gatis num morreus.
+            </n:p>
+            <a zclass="a-leia-mais" href="#">Leia + </a>
+        </div>
+        <n:hr/>
+    </div>
+</zk>

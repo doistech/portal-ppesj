@@ -1,0 +1,57 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"?>
+    <?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"?>
+    <?script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"?>
+    <?link href="../assets/css/portal.css" type="text/css" rel="stylesheet"?>
+
+    <div apply="org.zkoss.bind.BindComposer" viewModel="@id('vm') @init('br.com.ppesj.portal.viewmodel.AvisosVM')">
+        <!--<div zclass="row">-->
+            <!--<div zclass="col-md-12 align-div-area title-area">-->
+                <!--<n:h3 class="textTituloDaArea">ANOTE NA SUA AGENDA</n:h3>-->
+                <!--&lt;!&ndash;<n:span class="vertical-aling-middle">ANOTE NA SUA AGENDA</n:span>&ndash;&gt;-->
+            <!--</div>-->
+        <!--</div>-->
+        <div zclass="row">
+            <div zclass="col-md-12">
+                <div zclass="page-header" style="font-family: Lato;">
+                    <n:h1 >ANOTE NA SUA AGENDA</n:h1>
+                </div>
+            </div>
+        </div>
+        <div zclass="row">
+            <div zclass="col-md-8">
+                <div zclass="row container-avisos-background">
+                    <div zclass="col-md-12" style="margin-top: 15px;">
+                        <label value="@load(vm.avisoDetalhe.titulo)" zclass="style-font-titulo"/>
+                    </div>
+                    <div zclass="col-md-12">
+                        <label value="@load(vm.avisoDetalhe.data)" zclass="style-font-data"/>
+                    </div>
+                    <div zclass="col-md-12" style="margin-top:20px">
+                        <n:p>
+                            <label value="Descrição:" zclass="style-font-descricao-label"/>
+                        </n:p>
+                    </div>
+                    <div zclass="col-md-12" style="margin-top:5px">
+                        <n:p>
+                            <label value="@load(vm.avisoDetalhe.descricao)" zclass="style-font-descricao"/>
+                        </n:p>
+                    </div>
+                </div>
+            </div>
+            <div zclass="col-md-4">
+                <div children="@load(vm.listaAvisosDetalhe)">
+                    <template name="children" var="aviso">
+                        <div zclass="col-md-12 z-index-body">
+                            <n:span class="style-font">${aviso.data}</n:span>
+                            <n:br/>
+                            <n:span class="style-font">${aviso.titulo}</n:span>
+                            <a zclass="a-leia-mais" href="#" style="margin-left: 80%;" onClick="@command('leiaMais', idAviso = aviso.id)">Leia + </a>
+                            <n:hr class="hr-aviso"/>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+</zk>

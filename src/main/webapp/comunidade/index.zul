@@ -1,0 +1,11 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div zclass="row">
+        <div zclass="col-md-12 align-div-area title-area">
+            <n:h3 class="textTituloDaArea">NOSSAS COMUNIDADES</n:h3>
+            <!--<n:span class="vertical-aling-middle">ANOTE NA SUA AGENDA</n:span>-->
+        </div>
+    </div>
+    <div zclass="row">
+        <include src="/comunidade/_comunidades.zul"/>
+    </div>
+</zk>

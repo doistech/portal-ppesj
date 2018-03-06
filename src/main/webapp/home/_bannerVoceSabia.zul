@@ -1,0 +1,43 @@
+<zk xmlns:h="http://www.w3.org/1999/xhtml" xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <div zclass="col-md-12 align-div-area title-area">
+        <n:span class="vertical-aling-middle">VOCÊ SABIA?</n:span>
+    </div>
+    <div zclass="col-md-12" style="    padding: 0;">
+        <n:div id="myCarousel" class="carousel slide carrossel-height" data-ride="carousel">
+            <!-- Indicators -->
+            <n:ol class="carousel-indicators">
+                <n:li data-target="#myCarousel" data-slide-to="0" class="active"></n:li>
+                <n:li data-target="#myCarousel" data-slide-to="1"></n:li>
+                <n:li data-target="#myCarousel" data-slide-to="2"></n:li>
+            </n:ol>
+
+            <!-- Wrapper for slides -->
+            <n:div class="carousel-inner">
+                <n:div class="item active">
+                    <n:img src="http://www.digital949.com/wp-content/uploads/2017/02/Digi-BFF-Website-Banner-1110x350.jpg" />
+                    <!--alt="Los Angeles"/>-->
+                </n:div>
+
+                <n:div class="item">
+                    <n:img src="http://ced-slovenia.eu/wp-content/uploads/2017/08/CEE-animation-workshop-banner-1110x350.jpg" />
+                    <!--alt="Chicago"/>-->
+                </n:div>
+
+                <n:div class="item">
+                    <n:img src="http://www.digital949.com/wp-content/uploads/2014/04/Website-Banner-2-1110x350.jpg" />
+                    <!--alt="New York"/>-->
+                </n:div>
+            </n:div>
+
+            <!-- Left and right controls -->
+            <n:a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <n:span class="glyphicon glyphicon-chevron-left"></n:span>
+                <n:span class="sr-only">Previous</n:span>
+            </n:a>
+            <n:a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <n:span class="glyphicon glyphicon-chevron-right"></n:span>
+                <n:span class="sr-only">Next</n:span>
+            </n:a>
+        </n:div>
+    </div>
+</zk>
